@@ -13,6 +13,8 @@ gem "sprockets-rails"
 # gem "sqlite3", "~> 1.4"
 gem 'sqlite3', group: :development
 
+gem 'pg', group: :production
+
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", "~> 5.0"
 
@@ -71,6 +73,3 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
-
-
-gem 'pg', group: :production
