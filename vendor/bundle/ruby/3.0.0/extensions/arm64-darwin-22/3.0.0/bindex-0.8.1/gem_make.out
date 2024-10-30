@@ -1,0 +1,20 @@
+current directory: /Users/fujisyo/Desktop/test/rails_apps/HerokuApp/vendor/bundle/ruby/3.0.0/gems/bindex-0.8.1/ext/skiptrace
+/Users/fujisyo/.rbenv/versions/3.0.6/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/fujisyo/Desktop/test/rails_apps/HerokuApp/vendor/bundle/ruby/3.0.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20241030-43344-vhiwkp sitelibdir\=./.gem.20241030-43344-vhiwkp clean
+
+current directory: /Users/fujisyo/Desktop/test/rails_apps/HerokuApp/vendor/bundle/ruby/3.0.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20241030-43344-vhiwkp sitelibdir\=./.gem.20241030-43344-vhiwkp
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.bundle
+ld: warning: -multiply_defined is obsolete
+ld: warning: ignoring duplicate libraries: '-lruby.3.0'
+
+current directory: /Users/fujisyo/Desktop/test/rails_apps/HerokuApp/vendor/bundle/ruby/3.0.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20241030-43344-vhiwkp sitelibdir\=./.gem.20241030-43344-vhiwkp install
+/usr/bin/install -c -m 0755 cruby.bundle ./.gem.20241030-43344-vhiwkp/skiptrace/internal
+
+current directory: /Users/fujisyo/Desktop/test/rails_apps/HerokuApp/vendor/bundle/ruby/3.0.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20241030-43344-vhiwkp sitelibdir\=./.gem.20241030-43344-vhiwkp clean
