@@ -1,0 +1,18 @@
+current directory: /Users/fujisyo/Desktop/test/rails_apps/HerokuApp/vendor/bundle/ruby/3.1.0/gems/debug-1.9.2/ext/debug
+/Users/fujisyo/.rbenv/versions/3.1.4/bin/ruby -I /Users/fujisyo/.rbenv/versions/3.1.4/lib/ruby/3.1.0 extconf.rb
+creating Makefile
+
+current directory: /Users/fujisyo/Desktop/test/rails_apps/HerokuApp/vendor/bundle/ruby/3.1.0/gems/debug-1.9.2/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20241030-8298-ua97qh sitelibdir\=./.gem.20241030-8298-ua97qh clean
+
+current directory: /Users/fujisyo/Desktop/test/rails_apps/HerokuApp/vendor/bundle/ruby/3.1.0/gems/debug-1.9.2/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20241030-8298-ua97qh sitelibdir\=./.gem.20241030-8298-ua97qh
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.bundle
+ld: warning: -multiply_defined is obsolete
+ld: warning: ignoring duplicate libraries: '-lruby.3.1'
+
+current directory: /Users/fujisyo/Desktop/test/rails_apps/HerokuApp/vendor/bundle/ruby/3.1.0/gems/debug-1.9.2/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20241030-8298-ua97qh sitelibdir\=./.gem.20241030-8298-ua97qh install
+/usr/bin/install -c -m 0755 debug.bundle ./.gem.20241030-8298-ua97qh/debug

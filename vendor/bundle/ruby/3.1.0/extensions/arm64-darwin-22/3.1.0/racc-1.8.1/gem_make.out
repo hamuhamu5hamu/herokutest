@@ -1,0 +1,17 @@
+current directory: /Users/fujisyo/Desktop/test/rails_apps/HerokuApp/vendor/bundle/ruby/3.1.0/gems/racc-1.8.1/ext/racc/cparse
+/Users/fujisyo/.rbenv/versions/3.1.4/bin/ruby -I /Users/fujisyo/.rbenv/versions/3.1.4/lib/ruby/3.1.0 extconf.rb
+creating Makefile
+
+current directory: /Users/fujisyo/Desktop/test/rails_apps/HerokuApp/vendor/bundle/ruby/3.1.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20241030-8298-a9sc2i sitelibdir\=./.gem.20241030-8298-a9sc2i clean
+
+current directory: /Users/fujisyo/Desktop/test/rails_apps/HerokuApp/vendor/bundle/ruby/3.1.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20241030-8298-a9sc2i sitelibdir\=./.gem.20241030-8298-a9sc2i
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+ld: warning: -multiply_defined is obsolete
+ld: warning: ignoring duplicate libraries: '-lruby.3.1'
+
+current directory: /Users/fujisyo/Desktop/test/rails_apps/HerokuApp/vendor/bundle/ruby/3.1.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20241030-8298-a9sc2i sitelibdir\=./.gem.20241030-8298-a9sc2i install
+/usr/bin/install -c -m 0755 cparse.bundle ./.gem.20241030-8298-a9sc2i/racc
